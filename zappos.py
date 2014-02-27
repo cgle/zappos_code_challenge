@@ -5,7 +5,7 @@ import urllib2,json,operator
 
 input_price = 250
 input_no_items = 3
-item = 'accessories'
+item = 'shirts'
 API_KEY = 'a73121520492f88dc3d33daf2103d7574f1a3166'
 
 def searchurl(item,price,key,sort,limit,page):
